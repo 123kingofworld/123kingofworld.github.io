@@ -1,0 +1,293 @@
+ html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: black;
+        
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+        } 
+
+    .swiper-button-next{
+    position: absolute;
+        top: auto;
+        bottom: 2%;
+        left: 50%;
+        transform: rotate(-90deg);
+        margin-left: -13.5px;
+}
+.swiper-header h1{
+    color:antiquewhite;
+}
+.swiper-header img{
+    margin-top: 20px;
+    width: 370px;
+}
+
+.music_off{
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    animation: mus 1s linear infinite;
+     z-index: 999;
+}
+.gif{
+    position: absolute;
+    right:0;
+    top: 0;
+     z-index: 999;
+}
+
+
+@keyframes mus{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+ h2{
+    color: aliceblue;
+}
+.top-one{
+    position: absolute;
+    left: 13%;
+    top: 38%;
+}
+.top-two{
+    position: absolute;
+    left: 34%;
+    top: 38%
+}
+.top-there{
+    position: absolute;
+    left: 52%;
+    top: 38%
+}
+.top-four{
+    position: absolute;
+    left: 72%;
+    top: 36%;
+}
+.top-five{
+    position: absolute;
+    left: 13%;
+    top:49%;
+}
+.top-six{
+    position: absolute;
+    left: 34%;
+    top: 49%;
+}
+.top-seven{
+    position: absolute;
+    left: 52%;
+    top: 49%;
+}
+.eight{
+    position: absolute;
+    left: 72%;
+    top: 49%;
+}
+.top-night{
+    position: absolute;
+    left: 13%;
+    top: 60%;
+}
+.top-ten{
+    position: absolute;
+    left: 34%;
+    top: 60%;
+}
+.top-tone{
+    position: absolute;
+    left: 53%;
+    top: 60%;
+}
+.top-ttwo{
+    position: absolute;
+    left: 74%;
+    top: 60%;
+}
+.one{
+    position: absolute;
+    left: 24%;
+    top:30%;
+}
+.two{
+    position: absolute;
+    left: 42%;
+    top:30%;
+}
+.there{
+    position: absolute;
+    left: 60%;
+    top:30%;
+        
+}
+.four{
+    position: absolute;
+    left: 24%;
+    top: 41%;
+}
+.five{
+    position: absolute;
+    left: 42%;
+    top: 41%;
+}
+.six{
+    position: absolute;
+    left: 60%;
+    top: 41%;
+}
+.seven{
+    position: absolute;
+    left: 37%;
+    top: 52%;
+    width: 130px;
+    height: 136px;
+    border-radius: 10%;
+}
+.main{
+    position: absolute;
+    top: 16%;
+    left: 20%;
+}
+.swiper-du .xian{
+   border-bottom:#fff 2px solid;
+    width: 90%;
+}
+.swiper-du img{
+    margin-left: -41px;
+}
+.kobe{
+    position: absolute;
+    top:26%;
+    left: 44%
+}
+.kobe-one{
+    position: absolute;
+        top:37%;
+    left: 7%;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    line-height: 2;
+    background-color: initial;
+    font-size: small;
+    width: 320px;
+    height: 95px;
+}
+.slide-five img{
+    position: absolute;
+    top: 54%;
+    left: 9%;
+    border-radius: 10%;
+}
+.swiper-top h2{
+    position: absolute;
+    left: 18%;
+    top: 22%;
+}
+.slide-six{
+    width: 800px;
+    height: 300px;
+    margin-top: -65%;
+    margin-left: -35%;
+}
+.slide-six>div>img{
+  position:absolute;
+    left:30%;
+    top: 23%;
+}
+.slide-seven{
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    top:57%;
+    left: 13%;
+}
+.slide-seven li{
+    text-align: left;
+    list-style-type:disc;
+    line-height: 38px;
+    color: aliceblue;
+    font-family:initial;
+}
+.slider-e{
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    top: 7%;
+    left:-66%;
+    line-height:47px;
+}
+.slider-e ul li{
+    list-style: none;
+    color: aliceblue;
+}
+.slider-r img{
+    position: absolute;
+    left: 3%;
+}
+.slider-t{
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    top: 7%;
+    left: -66%;
+    line-height: 2;
+}
+.slider-t ul li{
+    list-style: none;
+    color: aliceblue;
+}
+.slider-y img{
+    position: absolute;
+    left: 3%;
+}
+.slider-u{
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    top: 7%;
+    left: -66%;
+    line-height: 2;
+}
+.slider-u ul li{
+    list-style:none;
+      color: aliceblue;
+}
+.slider-i img{
+    position: absolute;
+    top: 50%;
+    left: 6%;
+}
