@@ -1,0 +1,271 @@
+ html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+        background-image:url(../img/timg.jpg);
+        
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+        } 
+
+    .swiper-button-next{
+    position: absolute;
+        top: auto;
+        bottom: 2%;
+        left: 50%;
+        transform: rotate(-90deg);
+        margin-left: -13.5px;
+}
+.swiper-header h1{
+    color:antiquewhite;
+}
+.swiper-header img{
+    margin-top: 20px;
+    width: 370px;
+}
+
+.music_off{
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    animation: mus 1s linear infinite;
+     z-index: 999;
+}
+.gif{
+    position: absolute;
+    right:0;
+    top: 0;
+     z-index: 999;
+}
+@keyframes mus{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+/*第一页*/
+.swiper-top{
+        position: absolute;
+        left: 36%   ;
+}
+.swiper-top ul li{
+    list-style: none;
+    font-family:隶书;
+    font-size: 42px;
+    
+}
+.slide-a{
+    position: absolute;
+    top: 13%;
+}
+/*第二页*/
+.slide-b p{
+    font-family: inherit;
+    font-size: 23px;
+    position: absolute;
+    top: 41%;
+    left: 22%;
+}
+.xian{
+     border-bottom:black 4px solid;
+    width: 79%;
+    position: absolute;
+    top:38%;
+    left: 21%;
+}
+.xian1{
+    border-bottom:black 4px solid;
+    width: 79%;
+    position: absolute;
+    top:56%;
+    left: 0%;
+}
+.xian2{
+    border-bottom:black 4px solid;
+    width: 52%;
+    position: absolute;
+    top:24%;
+}
+.slide-c{
+    position: absolute;
+    top:65%;
+    left: 2%;
+    text-align: left;
+    line-height: 177%;
+}
+.slide-c ul li{
+    list-style: none;
+    font-size: 15px;
+    font-family: -webkit-body;
+}
+/*第三页*/
+.text-z {
+    display: block;
+    position: absolute;
+    left: 5%;
+    top: 33%;
+    color:black;
+}
+.text-z1 {
+    display: block;
+    position: absolute;
+    left: 15%;
+    top: 40%;
+     color:black;
+}
+.text-z2 {
+    display: block;
+    position: absolute;
+    left: 4%;
+    top: 47%;
+     color: black;
+    text-align: left;
+    text-indent: 2em;
+    font-family: cursive;
+    z-index: 999;
+}
+/*第四页*/
+.xian3{
+    border-bottom:black 4px solid;
+    width: 52%;
+    position: absolute;
+    top:24%;
+}
+.slide-six{
+    
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    top: 30%;
+}
+.slide-six img{
+    position: absolute;
+    left: 28%;
+    width: 395px;
+    height: 293px;
+}
+.swiper-t img{
+    width: 300px;
+    height: 150px;
+}
+.t1{
+    position: absolute;
+    top: 31%;
+    left: 10%;
+}
+.t2{
+    position: absolute;
+    left: 9%;
+    top: 63%;
+}
+
+.slider-y img{
+    position: absolute;
+    left:9%;
+    top: 41%;
+    width: 334px;
+    height: 229px;
+}
+.inpt1{
+    position: absolute;
+    width: 45%;
+    height: 35px;
+    border-width: 2px;
+    border-color:black;
+    border-style: solid;
+    background: rgb(255, 255, 255);
+    border-radius: 0px;
+    color: rgb(75, 75, 75);
+    font-size: 14px;
+    line-height: 36px;
+    padding: 0px 10px;
+    top: 40%;
+    left: 27%;
+}
+.inpt2{
+    position: absolute;
+    width: 45%;
+    height: 35px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    background: rgb(255, 255, 255);
+    border-radius: 0px;
+    color: rgb(75, 75, 75);
+    font-size: 14px;
+    line-height: 36px;
+    padding: 0px 10px;
+    top: 50%;
+    left: 27%;
+}
+.inpt3{
+    position: absolute;
+    width: 45%;
+    height: 35px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    background: rgb(255, 255, 255);
+    border-radius: 0px;
+    color: rgb(75, 75, 75);
+    font-size: 14px;
+    line-height: 36px;
+    padding: 0px 10px;
+    top: 60%;
+    left: 27%;
+}
+
+.s5-1{
+    position: absolute;
+    font-size: 27px;
+    font-weight: 700;
+    top: 27%;
+    left: 38%;
+    color: black;
+}
+.but{
+    position: absolute;
+    padding: 0px 10px;
+    width: 34%;
+    height: 36px;
+    border-width: 0px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    text-align: center;
+    background: darkgray;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 36px;
+    top: 69%;
+    left: 34%;
+}
